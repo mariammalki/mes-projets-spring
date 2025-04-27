@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html
+        xmlns:th="http://www.thymeleaf.org"
+        th:replace="fragments/layout :: layout(~{::title}, ~{::main})"
+>
+<head>
+    <title>Students - Student Portal</title>
+</head>
+<body>
+<main>
+    <h2>Students</h2>
+    <a th:href="@{/students/new}" class="btn btn-primary mb-3"
+    >Add New Student</a
+    >
+
+    <div th:if="${#lists.isEmpty(students)}" class="alert alert-info">
+        No students found. Please add a student.
+    </div>
+
+    <div th:unless="${#lists.isEmpty(students)}">
+        <table class="table table-striped table-hover">
+            <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Course</th>
+                <th>Student ID</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="student : ${students}">
+                <td th:text="${student.id}">1</td>
+                <td th:text="${student.name}">John Doe</td>
+                <td th:text="${student.age}">21</td>
+                <td th:text="${student.email}">john@example.com</td>
+                <td th:text="${student.course}">Computer Science</td>
+                <td th:text="${student.studentId}">CS123456</td>
+                <td>
+                    <a
+                            th:href="@{/students/{id}(id=${student.id})}"
+                            class="btn btn-sm btn-info"
+                    >View</a
+                    >
+                    <a
+                            th:href="@{/students/edit/{id}(id=${student.id})}"
+                            class="btn btn-sm btn-warning"
+                    >Edit</a
+                    >
+                    <a
+                            th:href="@{/students/delete/{id}(id=${student.id})}"
+                            class="btn btn-sm btn-danger"
+                            onclick="return confirm('Are you sure you want to delete this student?');"
+                    >Delete</a
+                    >
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+</body>
+</html>
