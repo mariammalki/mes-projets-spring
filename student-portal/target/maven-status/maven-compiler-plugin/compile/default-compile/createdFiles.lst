@@ -1,0 +1,6 @@
+com\example\studentportal\exception\GlobalExceptionHandler.class
+com\example\studentportal\model\Student.class
+com\example\studentportal\service\StudentServiceImpl.class
+com\example\studentportal\controller\StudentController.class
+com\example\student_portal\StudentPortalApplication.class
+com\example\studentportal\service\StudentService.class

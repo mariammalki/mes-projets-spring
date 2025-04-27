@@ -1,0 +1,17 @@
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\Service\BookServiceImpl.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\Service\BookService.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\exception\ErrorDetails.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\actuator\BookCatalogHealthIndicator.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\config\PostgresConfig.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\config\OpenApiConfig.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\exception\ResourceNotFoundException.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\Infocontributor\BookCatalogInfoContributor.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\repository\InMemoryBookRepository.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\model\Book.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\controller\BookController.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\BookcatalogApplication.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\metrics\BookCatalogMetrics.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\exception\GlobalExceptionHandler.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\repository\BookRepository.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\exception\ValidationErrorDetails.java
+C:\Users\pc\Desktop\bookcatalog\src\main\java\com\example\bookcatalog\config\DataInitializer.java
